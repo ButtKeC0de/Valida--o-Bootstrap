@@ -10,131 +10,131 @@
 </head>
 
 <body>
-    <div class="container-xxl shadow-lg p-3 mb-5 bg-body-tertiary rounded" >
-    <header>
-        <h1 class="text-center">Cadastro de Aluno</h1>
-        <p class="text-center">Preencha os dados abaixo para realizar o registro completo do aluno no sistema acadêmico.
-        </p>
-    </header>
+    <div class="p-5">
+        <div class="container-xxl shadow-lg p-3 mb-5 bg-body-tertiary rounded t-auto">
+            <header>
+                <h1 class="text-center">Cadastro de Aluno</h1>
+                <p class="text-center">Preencha os dados abaixo para realizar o registro completo do aluno no sistema
+                    acadêmico.
+                </p>
+            </header>
 
-        <form class="row g-3 needs-validation" novalidate>
-  
-            <div class="col-md-6 position-relative">
-                <label for="Nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="Nome" required>
-                <div class="valid-tooltip">Preenchido</div>
-            </div>
+            <form class="row g-3 needs-validation " novalidate>
 
-            <div class="col-md-6 position-relative">
-                <label for="Cpf" class="form-label">CPF</label>
-                <input type="CPF" class="form-control" id="cpf" required>
-                <div class="valid-tooltip">Looks good!</div>
-            </div>
+                <div class="col-md-6 position-relative">
+                    <label for="Nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="Nome" required>
+                    <div class="valid-tooltip">Preenchido</div>
+                </div>
 
-            <div class="col-md-4 position-relative">
-                <label for="Data de nascimento" class="form-label">Data de nascimento</label>
-                <input type="nascimento" class="form-control" id="Nascimento"  placeholder="mm/dd/yyyy"  required>
-                <div class="valid-tooltip">Feito</div>
-            </div>
+                <div class="col-md-6 position-relative">
+                    <label for="Cpf" class="form-label">CPF</label>
+                    <input type="CPF" class="form-control" id="cpf" required>
+                    <div class="valid-tooltip">Looks good!</div>
+                </div>
 
-            
-            <div class="col-md-4 position-relative">
-                <label for="Telefone" class="form-label">Telefone</label>
-                <input type="numb" class="form-control" id="Numb"   required>
-                <div class="valid-tooltip">Feito</div>
-            </div>
+                <div class="col-md-4 position-relative">
+                    <label for="Data de nascimento" class="form-label">Data de nascimento</label>
+                    <input type="nascimento" class="form-control" id="Nascimento" placeholder="mm/dd/yyyy" required>
+                    <div class="valid-tooltip">Feito</div>
+                </div>
 
-            <div class="col-md-4 position-relative">
-                <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email"   required>
-                <div class="valid-tooltip">Feito</div>
-            </div>
+                <div class="col-md-4 position-relative">
+                    <label for="Telefone" class="form-label">Telefone</label>
+                    <input type="numb" class="form-control" id="Numb" required>
+                    <div class="valid-tooltip">Feito</div>
+                </div>
 
-            <div class="col-md-12 position-relative">
-                <label for="End" class="form-label">Endereço Completo</label>
-                <input type="end" class="form-control" id="End"   required>
-                <div class="valid-tooltip">Feito</div>
-            </div>
-            
-            <div class="col-md-4 position-relative">
-                <label for="cidade" class="form-label">Cidade</label>
-                <input type="text" class="form-control" id="cidade" required>
-                <div class="invalid-tooltip">Escreva uma cidade válida.</div>
-            </div>
+                <div class="col-md-4 position-relative">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="Email" required>
+                    <div class="valid-tooltip">Feito</div>
+                </div>
 
-            <div class="col-md-4 position-relative">
-                <label for="estado" class="form-label">Estado</label>
-                <select class="form-select" id="estado" required>
-                    <option>...</option>
-                    <option>AC</option>
-                    <option>AL</option>
-                    <option>AP</option>
-                    <option>AM</option>
-                    <option>CE</option>
-                    <option>DF</option>
-                    <option>ES</option>
-                    <option>GO</option>
-                    <option>MA</option>
-                    <option>MT</option>
-                    <option>MS</option>
-                    <option>MG</option>
-                    <option>PA</option>
-                    <option>PB</option>
-                    <option>PR</option>
-                    <option>PE</option>
-                    <option>PI</option>
-                    <option>RJ</option>
-                    <option>RN</option>
-                    <option>RS</option>
-                    <option>RO</option>
-                    <option>RR</option>
-                    <option>SC</option>
-                    <option>SP</option>
-                    <option>SC</option>
-                    <option>SP</option>
-                    <option>SE</option>
-                    <option>TO</option>
-                </select>
-                <div class="invalid-tooltip">Selecione um estado.</div>
-            </div>
+                <div class="col-md-12 position-relative">
+                    <label for="End" class="form-label">Endereço Completo</label>
+                    <input type="end" class="form-control" id="End" required>
+                    <div class="valid-tooltip">Feito</div>
+                </div>
 
-            <div class="col-md-4 position-relative">
-                <label for="cep" class="form-label">CEP</label>
-                <input type="text" class="form-control" id="cep" required>
-                <div class="invalid-tooltip">Informe um CEP válido.</div>
-            </div>
+                <div class="col-md-4 position-relative">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" required>
+                    <div class="invalid-tooltip">Escreva uma cidade válida.</div>
+                </div>
 
-             <div class="col-md-6 position-relative">
-                <label for="Curso" class="form-label">Curso</label>
-                <input type="curso" class="form-control" id="curso" required>
-                <div class="invalid-tooltip">Informe um CEP válido.</div>
-            </div>
+                <div class="col-md-4 position-relative">
+                    <label for="estado" class="form-label">Estado</label>
+                    <select class="form-select" id="estado" required>
+                        <option>...</option>
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SC</option>
+                        <option>SP</option>
+                        <option>SE</option>
+                        <option>TO</option>
+                    </select>
+                    <div class="invalid-tooltip">Selecione um estado.</div>
+                </div>
 
-             <div class="col-md-6 position-relative">
-                <label for="Matricula" class="form-label">Matricula</label>
-                <input type="Matricula" class="form-control" id="matricula" required>
-                <div class="invalid-tooltip">Informe um CEP válido.</div>
-            </div>
+                <div class="col-md-4 position-relative">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="cep" required>
+                    <div class="invalid-tooltip">Informe um CEP válido.</div>
+                </div>
 
-             <div class="col-md-6 position-relative">
-                <label for="Senha" class="form-label">Senha</label>
-                <input type="Senha" class="form-control" id="senha" required>
-                <div class="invalid-tooltip">Informe um CEP válido.</div>
-            </div>
+                <div class="col-md-6 position-relative">
+                    <label for="Curso" class="form-label">Curso</label>
+                    <input type="curso" class="form-control" id="curso" required>
+                    <div class="invalid-tooltip">Informe um CEP válido.</div>
+                </div>
 
-             <div class="col-md-6 position-relative">
-                <label for="cep" class="form-label">Confirmar senha</label>
-                <input type="Confse" class="form-control" id="confsenha" required>
-                <div class="invalid-tooltip">Informe um CEP válido.</div>
-            </div>
+                <div class="col-md-6 position-relative">
+                    <label for="Matricula" class="form-label">Matricula</label>
+                    <input type="Matricula" class="form-control" id="matricula" required>
+                    <div class="invalid-tooltip">Informe um CEP válido.</div>
+                </div>
 
+                <div class="col-md-6 position-relative">
+                    <label for="Senha" class="form-label">Senha</label>
+                    <input type="Senha" class="form-control" id="senha" required>
+                    <div class="invalid-tooltip">Informe um CEP válido.</div>
+                </div>
 
+                <div class="col-md-6 position-relative">
+                    <label for="cep" class="form-label">Confirmar senha</label>
+                    <input type="Confse" class="form-control" id="confsenha" required>
+                    <div class="invalid-tooltip">Informe um CEP válido.</div>
+                </div>
 
-            <div class="col-12">
-                <button class="btn btn-primary" type="submit">Enviar</button>
-            </div>
+                <div class="col-md-12 position-relative">
+                    <button class="btn btn-primary form-control" type="submit">Cadastrar Aluno</button>
+                </div>
 
-        </form>
+            </form>
+        </div>
     </div>
 
 </body>
